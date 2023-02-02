@@ -9,7 +9,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/assets/7acc3a7b-59a2-4668-b620-980b94715189.png');
+    background-image: url('./7acc3a7b-59a2-4668-b620-980b94715189.png');
     background-size:450px 350px;
     /* background-repeat: no-repeat; */
     /* background-color: black; */
