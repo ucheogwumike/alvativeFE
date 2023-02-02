@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <label class="switch">
+            <input type="checkbox" id="mycheck">
+            <span class="slider round"></span>
+          </label>
+    
+    <section>
+        <form action="" class="one">
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail">
+            <label for="amount" >Amount</label>
+            <input type="number" id="amount">
+            <input type="button" value="Pay now" class="pay">
+            
+        </form>
+        <form action="" class="two">
+            <label for="fname">first name</label>
+            <input type="text" id="fname">
+            <label for="lname">last name</label>
+            <input type="text" id="lname">
+            <label for="account">account number</label>
+            <input type="number" id="account">
+            <label for="bankname">bank name</label>
+            <select name="banks" id="bankname"></select>
+            <input type="button" value="add a beneficiary" class="green">
+            <!-- <input type="button" value="view beneficiaries" class="yellow"> -->
+            <!-- <input type="button" value="delete a beneficiary" class="red"> -->
+            
+        </form>
+    </section>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./pay.js"></script>
+    <script src="./benefactors.js"></script>
+    
+</body>
+</html>
