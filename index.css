@@ -149,3 +149,9 @@ div{
     font-size: large;
     margin-bottom: 1rem;
   }
+
+@media screen and (max-width: 480px) {
+   section{
+    width: 40vh;
+   }
+  }
